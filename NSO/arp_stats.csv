@@ -1,0 +1,10 @@
+device,ip_addr,mac_addr,interface
+internet-rtr01,172.31.252.1,5254.0013.940e,GigabitEthernet2,
+internet-rtr01,172.31.252.2,5254.001f.3cb0,GigabitEthernet2,
+internet-rtr01,172.31.0.1,5254.0002.9fef,GigabitEthernet3,
+internet-rtr01,Mgmt-intf,10.10.20.172,5254.0002.7a1d,GigabitEthernet1
+internet-rtr01,Mgmt-intf,10.10.20.181,5254.000b.0223,GigabitEthernet1
+internet-rtr01,Mgmt-intf,10.10.20.254,0050.56bf.65fe,GigabitEthernet1
+internet-rtr01,Mgmt-intf,10.10.20.49,0050.56bf.066b,GigabitEthernet1
+internet-rtr01,Mgmt-intf,10.10.20.50,0050.56bf.0f3b,GigabitEthernet1
+internet-rtr01,test,10.2.1.2,0500.0002.9eef,N/A
