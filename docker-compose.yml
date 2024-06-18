@@ -1,0 +1,35 @@
+version: "3.7"
+
+
+services:
+  crm1:
+    build: "."
+    image: "globalmantics:crm2024"
+    ports:
+      - "5001:5000/tcp"
+    volumes:
+      - type: "bind"
+        source: "/c/Users/kjgue/iCloudDrive/Cisco Devnet Study/Python/Globomantics"
+        target: "/app"
+  crm2:
+    build: "."
+    image: "globalmantics:crm2024"
+    ports:
+      - "5002:5000/tcp"
+    volumes:
+      - type: "bind"
+        source: "/c/Users/kjgue/iCloudDrive/Cisco Devnet Study/Python/Globomantics"
+        target: "/app"
+
+  crm3:
+    build: "."
+    image: "globalmantics:crm2024"
+    ports:
+      - "5003:5000/tcp"
+    volumes:
+      - type: "bind"
+        source: "/c/Users/kjgue/iCloudDrive/Cisco Devnet Study/Python/Globomantics"
+        target: "/app"
+
+
+
